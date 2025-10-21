@@ -1,0 +1,4 @@
+1|Alice Johnson|video|beginner|video|0|0.00|15-12-2024
+2|Bob Smith|code|intermediate|exercise|0|0.00|15-12-2024
+3|Carol Davis|text|advanced|reading|0|0.00|15-12-2024
+4|David Wilson|mixed|beginner|tutorial|0|0.00|15-12-2024

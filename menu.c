@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "learner_profile.h"
-
-// Function declarations for menu options
-void logLearningInteraction();
-void viewContentRepository();
-void getResourceRecommendations();
-void generateFeedbackReports();
+#include "interaction_logging.h"
+#include "content_management.h"
+#include "recommendation_engine.h"
+#include "feedback_reports.h"
 
 int main() {
     int choice;
@@ -36,7 +34,7 @@ int main() {
                 logLearningInteraction();
                 break;
             case 3:
-                viewContentRepository();
+                manageContentRepository();
                 break;
             case 4:
                 getResourceRecommendations();

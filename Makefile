@@ -3,7 +3,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
 TARGET = learning_assistant
-SOURCES = menu.c learner_profile.c interaction_log.c view_content_repo.c resource_recommendations.c feedback_report.c
+SOURCES = menu.c learner_profile.c file_operations.c content_management.c interaction_logging.c recommendation_engine.c feedback_reports.c
 OBJECTS = $(SOURCES:.c=.o)
 
 # Default target
